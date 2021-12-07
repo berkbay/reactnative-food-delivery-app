@@ -25,7 +25,7 @@ export default class Home extends Component {
                         {/*    <Picker.Item label={"Izmir"} value={"Izmir"} style={styles.pickerItem}/>*/}
                         {/*    <Picker.Item label={"Istanbul"} value={"Istanbul"} style={styles.pickerItem}/>*/}
                         {/*    <Picker.Item label={"Ankara"} value={"Ankara"} style={styles.pickerItem}/>*/}
-                        {/*</Picker>*/}
+                        {/*</Picker>*/ }
                         <Text style={styles.pickerItem}>{this.state.city} </Text>
                     </View>
                     <View style={styles.iconView}>
