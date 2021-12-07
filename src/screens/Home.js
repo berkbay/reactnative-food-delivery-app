@@ -59,7 +59,41 @@ export default class Home extends Component {
                         <Text style={styles.foodText}> Pizza </Text>
                     </View>
                 </ScrollView>
-
+                <View style={styles.productsTitleContainer}>
+                    <View style={styles.productsTitleView}>
+                        <Text style={styles.productsTitleText}>New Products</Text>
+                    </View>
+                    <View style={styles.productsEntypoView}>
+                        <Entypo name="dots-three-horizontal" size={25} color="#848385"/>
+                    </View>
+                </View>
+                <View style={styles.productView}>
+                    <Product
+                    image={require("../images/4.png")}
+                    title="SmokeHouse"
+                    price="12.99"
+                    onPress={() => this.props.navigation.navigate('Detail')}
+                    />
+                    <Product
+                    image={require("../images/9.png")}
+                    title="Honey Chilli"
+                    price="10.99"
+                    marginTop={25}
+                    />
+                </View>
+                <View style={styles.productView}>
+                    <Product
+                    image={require("../images/6.png")}
+                    title="Adios Pizza"
+                    price="11.99"
+                    />
+                    <Product
+                    image={require("../images/10.png")}
+                    title="Burrito"
+                    price="10.99"
+                    marginTop={25}
+                    />
+                </View>
             </ScrollView>
         )
     }
