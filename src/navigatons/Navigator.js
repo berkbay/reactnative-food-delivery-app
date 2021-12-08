@@ -13,7 +13,7 @@ const HomeStackNavigator = () => {
     return (
         <Stack.Navigator screenOptions={screenOptionsStyle}>
             <Stack.Screen name="Home" component={Home}/>
-            <Stack.Screen name="Detai" component={Detail}/>
+            <Stack.Screen name="Detail" component={Detail}/>
         </Stack.Navigator>
     )
 }

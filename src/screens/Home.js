@@ -1,9 +1,10 @@
 import React, {Component} from "react";
 import {View, Text, Image, StyleSheet} from "react-native";
 import {Picker} from "@react-native-picker/picker";
-import {ScrollView} from "react-native-gesture-handler";
+import {ScrollView,} from "react-native-gesture-handler";
 import {Entypo, Ionicons} from '@expo/vector-icons';
 import Product from "../components/Product";
+
 
 export default class Home extends Component {
     state={
